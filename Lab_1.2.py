@@ -57,6 +57,8 @@ if __name__ == "__main__":
         text = f.read()
 
     dec = decryption(text)
+    print(dec)
+    
     with open("D:\\lab_oib\\isb-1\\isb-1\\cod2_decrypted.txt", "w", encoding = "utf-8" ) as f:
         f.write(dec)
 
